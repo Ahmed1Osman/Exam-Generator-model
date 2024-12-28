@@ -86,9 +86,6 @@ Transformers Library for implementing the Llama model and handling various NLP t
 Contact
 For questions or suggestions, feel free to open an issue or contact me directly via GitHub.
 
-markdown
-Copy code
-
 ### Key Adjustments:
 
 - Corrected the formatting for headings and sections.
