@@ -2,6 +2,9 @@
 
 This project implements a system for automatically generating multiple-choice questions (MCQs) from PDF documents using the **Llama 3B** language model. The system processes extracted text from PDFs, segments it into coherent chunks, and generates MCQs for each chunk. Both the **base model** and a **fine-tuned version** (trained on the SQuAD and RACE datasets) are available. The fine-tuned version significantly improves the quality, relevance, and accuracy of the generated MCQs.
 
+#Models
+Llama-3B-QA-Enhanced: Llama-3B-QA-Enhanced on Hugging Face  https://huggingface.co/AhmedOthman/Llama-3B-QA-Enhanced
+ExamGen: ExamGen on Hugging Face   https://huggingface.co/mohamedrady1212434/examgen
 ## Features
 
 - Extracts text from PDF files and divides it into meaningful chunks.
