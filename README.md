@@ -7,6 +7,15 @@ This project implements a system for automatically generating multiple-choice qu
 Llama-3B-QA-Enhanced: https://huggingface.co/AhmedOthman/Llama-3B-QA-Enhanced
 
 ExamGen:   https://huggingface.co/mohamedrady1212434/examgen
+
+# Dataset
+The fine-tuned model was trained on the following datasets:
+
+SQuAD (Stanford Question Answering Dataset): [SQuAD on Hugging Face](https://huggingface.co/datasets/rajpurkar/squad_v2)
+
+RACE (ReAding Comprehension from Examinations): [RACE on Hugging Face](https://huggingface.co/datasets/ehovy/race)
+
+Both datasets are available through the Hugging Face Datasets library.
 ## Features
 
 - Extracts text from PDF files and divides it into meaningful chunks.
