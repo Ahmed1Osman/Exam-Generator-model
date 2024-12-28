@@ -1,1 +1,41 @@
+# Automated MCQ Generation Models: Llama-3B-QA-Enhanced & ExamGen
+
+This repository contains two fine-tuned models for generating multiple-choice questions (MCQs) from educational text:
+
+1. **Llama-3B-QA-Enhanced**: A fine-tuned version of Llama 3B optimized for MCQ generation using both the **SQuAD** and **RACE** datasets.
+2. **ExamGen**: A version fine-tuned on the **SQuAD** dataset to generate MCQs specifically from question-answer pairs.
+
+Both models are designed to assist educators, content creators, and platforms in generating high-quality MCQs for assessments, quizzes, and educational content development.
+
+## Model Descriptions
+
+### 1. **Llama-3B-QA-Enhanced**
+- **Base Model**: Llama 3B, fine-tuned on **SQuAD** and **RACE** datasets.
+- **Purpose**: Automatically generates high-quality MCQs for educational content. Useful for creating quizzes and assessment material.
+- **Evaluation Metrics**:
+  - *Accuracy*
+  - *BLEU*
+  - *ROUGE*
+
+### 2. **ExamGen**
+- **Base Model**: Llama 3B, fine-tuned on **SQuAD** dataset.
+- **Purpose**: Focused on generating MCQs from question-answer pairs. This model is more tuned towards generating factual questions based on educational text.
+- **Evaluation Metrics**:
+  - **SQuAD-based performance** for question generation and answering.
+
+## Features
+
+- **Llama-3B-QA-Enhanced** generates MCQs based on both SQuAD and RACE datasets.
+- **ExamGen** generates MCQs specifically based on the SQuAD dataset.
+- Both models can automatically create assessment materials and quizzes.
+- The models evaluate text chunks from documents and generate high-quality MCQs in response.
+
+## Usage Instructions
+
+### 1. Install the necessary dependencies
+
+Before using the models, make sure you have the necessary libraries installed:
+
+```bash
+pip install transformers torch datasets
 
